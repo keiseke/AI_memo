@@ -90,12 +90,17 @@ AI は、学習させる前の段階では全く何も知らないまっさら�
 
 # 作成物
 
+<u>前提</u></br>
+OS：Windows10</br>
+エディタ：Visual Studio code</br>
+言語：Python 3.8.5
+
 ### 音声認識プログラム
 
 使用したオープンツール
 
-- pandas
-- speech_recognition
+- pandas 1.2.2
+- speech_recognition 3.8.1
 
 音声を自動で文字お越しするプログラム
 ![音声認識プログラム](./キャプチャ.png)
@@ -105,7 +110,7 @@ AI は、学習させる前の段階では全く何も知らないまっさら�
 使用したオープンツール
 
 - tesseract-OCR
-- pyocr
+- pyocr 0.8
 
 文字起こししたい画像を準備する
 ![文字お越ししたい画像](./test.png)
